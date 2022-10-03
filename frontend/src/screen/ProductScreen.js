@@ -55,7 +55,7 @@ const ProductScreen = ({ history, match }) => {
 
   return( 
     <>
-        <Link className='btn btn-primary' to='/'>
+        <Link className='badge rounded-pill btn-outline-warning my-2 px-4' to='/'>
             Go Back
             </Link>
             {loading ? (
@@ -130,7 +130,7 @@ const ProductScreen = ({ history, match }) => {
                                 <ListGroup.Item className="mx-auto">
                                     <Button
                                     onClick={addToCartHandler}
-                                    className='btn btn-success'
+                                    className='btn btn-outline-warning'
                                     type='button'
                                     disabled={product.countInStock === 0 }
                                     >

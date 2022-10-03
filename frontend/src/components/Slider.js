@@ -1,54 +1,81 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Slider = () => {
   return <>
-    
+    <div class="Categories">
 
-  
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-       <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-       <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="uploads\welcome to kamdhenu restaurant.png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Welcome To</h5>
-        <p>kamdhenu</p>
+    <Link to="/search/copy">
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog1.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Copys</div>
+      </div>
+      </Link>
+
+      <Link to="/search/pen">
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog2.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Pen </div>
+      </div>
+      </Link>
+
+      <Link to="/search/cello">
+      <div class="Category">
+        <img class="navlog" src="uploads\CelloLogo.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Cello</div>
+      </div>
+      </Link>
+
+      <Link to="/search/dairy">
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog4.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Dairy</div>
+      </div>
+      </Link>
+
+      <Link to="/search/classmate">
+      <div class="Category">
+        <img class="navlog" src="uploads\ClassmateLogo.jpg" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">classmate</div>
+      </div>
+      </Link>
+
+      <Link to="/search/doms">
+      <div class="Category">
+        <img class="navlog" src="uploads\Doms.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Doms</div>
+      </div>
+      </Link>
+
+      <Link to="/search/colour">
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog3.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Colour's</div>
+      </div>
+      </Link>
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog2.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Pen & pencil's</div>
+      </div>
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog4.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Pen & pencil's</div>
+      </div>
+      <div class="Category">
+        <img class="navlog" src="uploads\navlog5.png" width="100%" height="100%" />
+        <div class="Shadow"></div>
+        <div class="Burgers">Pen & pencil's</div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="uploads\welcome to kamdhenu restaurant (1).png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Welcome To</h5>
-        <p>kamdhenu</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="uploads\welcome to kamdhenu restaurant (2).png" class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Welcome To</h5>
-        <p>kamdhenu</p>
-      </div>
-    </div>
-    
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
- 
-
-
 
   </>;
 };

@@ -9,6 +9,8 @@ import Paginate from '../components/Paginate';
 import { listProducts } from '../actions/productActions';
 import Meta from '../components/Meta'
 import Slider from '../components/Slider';
+import Slider2 from '../components/Slider2';
+
 // import Menu from '../components/Menu';
 
 const HomeScreen = ({ match }) => {
@@ -29,7 +31,11 @@ const HomeScreen = ({ match }) => {
       <>
       <Meta />
       { !keyword ? ( 
-      <Slider />
+        <>
+            <Slider />
+            <Slider2 />
+      
+        </>
        ) : (
            <Link to='/' className='btn btn-light'>
                Go Back
